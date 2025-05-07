@@ -1,11 +1,40 @@
-.fejlec{
-    font-size: 50px;
-    text-align: center;
-    
+/* Basic Styling */
+body {
+    font-family: 'Arial', sans-serif;
 }
 
-.container-fluid{
-    width: 500px;
-    height:750px;
-    color: blue;
+.hero {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #ff5733;
+    border-color: #ff5733;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
 }
