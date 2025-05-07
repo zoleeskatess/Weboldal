@@ -1,13 +1,14 @@
 /* Basic Styling */
 body {
     font-family: 'Arial', sans-serif;
+    background-color: #EBE9E1;
 }
 
 .hero {
-    background-image: url('https://via.placeholder.com/1200x600');
+    background-color: bisque;
     background-size: cover;
     background-position: center;
-    color: white;
+    
 }
 
 .hero h1 {
@@ -20,7 +21,7 @@ body {
 
 .card img {
     height: 200px;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 /* Footer */
@@ -30,11 +31,14 @@ footer {
 
 /* Button Styles */
 .btn-primary {
-    background-color: #ff5733;
-    border-color: #ff5733;
+    background-color: grey;
+    border-color: grey;
 }
 
 .btn-primary:hover {
-    background-color: #c0392b;
-    border-color: #c0392b;
+    background-color: grey;
+    border-color: grey;
+}
+.custom-hero {
+    background-color: gray; 
 }
